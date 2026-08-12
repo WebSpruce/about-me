@@ -6,7 +6,7 @@ export function Hero() {
         <section className="min-h-screen flex flex-col items-center justify-center px-6 bg-zinc-950 text-center">
             <img
                 src={heroData.photoUrl} alt={heroData.name}
-                className="w-32 h-32 rounded-full object-cover mb-6 border-2 border-zinc-700"/>
+                className="w-32 h-32 rounded-full object-cover mb-6 "/>
             <p className="text-sm uppercase tracking-widest text-zinc-500 mb-4">
               {heroData.location}
             </p>
