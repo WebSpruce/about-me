@@ -3,7 +3,7 @@ import { contactData } from '../data/contact';
 
 export function Contact() {
   return (
-    <section id="contact" className="scroll-mt-20 py-24 px-6 bg-zinc-950 ">
+    <section id="contact" className="scroll-mt-20 py-24 px-6 ">
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-sm uppercase tracking-widest text-zinc-500 mb-3">
           {contactData.eyebrow}

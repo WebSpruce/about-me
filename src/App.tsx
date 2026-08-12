@@ -1,4 +1,5 @@
 import './App.css'
+import { DotGrid } from './components/DotGrid'
 import { Nav } from './components/Nav'
 import { About } from './sections/About'
 import { Contact } from './sections/Contact'
@@ -9,7 +10,8 @@ import { Projects } from './sections/Projects'
 function App() {
 
   return (
-    <main>
+    <div className="relative min-h-screen">
+      <DotGrid />
       <Nav />
       <main>
         <Hero/>
@@ -18,7 +20,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </main>
+    </div>
   )
 }
 
