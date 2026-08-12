@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: '/about-me',
   server: {
     host: true,                                                               
     watch: {
