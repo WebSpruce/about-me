@@ -19,7 +19,7 @@ export function SocialLinks({ links }: SocialLinksProps) {
             aria-label={link.label}
             className="text-zinc-400 hover:text-white transition-colors"
           >
-            <Icon size={22} strokeWidth={1.75} />
+            <Icon size={22} />
           </a>
         );
       })}
