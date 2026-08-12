@@ -2,7 +2,7 @@ import { aboutData } from '../data/about';
 
 export function About() {
   return (
-    <section className="py-24 px-6 bg-zinc-950">
+    <section id="about" className="scroll-mt-20 py-24 px-6 bg-zinc-950">
       <div className="max-w-2xl mx-auto">
         <p className="text-sm uppercase tracking-widest text-zinc-500 mb-3">
           {aboutData.eyebrow}

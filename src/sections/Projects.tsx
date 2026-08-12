@@ -3,7 +3,7 @@ import { ProjectCard } from '../components/ProjectCard';
 
 export function Projects() {
   return (
-    <section className="py-24 px-6 bg-zinc-950">
+    <section id="projects" className="scroll-mt-20 py-24 px-6 bg-zinc-950">
       <div className="max-w-3xl mx-auto">
         <p className="text-sm uppercase tracking-widest text-zinc-500 mb-3">
           Case files

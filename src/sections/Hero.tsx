@@ -3,7 +3,7 @@ import { SocialLinks } from '../components/SocialLinks'
 
 export function Hero() {
     return(
-        <section className="min-h-screen flex flex-col items-center justify-center px-6 bg-zinc-950 text-center">
+        <section id="hero" className="scroll-mt-20 min-h-screen flex flex-col items-center justify-center px-6 bg-zinc-950 text-center">
             <img
                 src={heroData.photoUrl} alt={heroData.name}
                 className="w-32 h-32 rounded-full object-cover mb-6 "/>
